@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Black Card</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container text-center py-5">
+        <h3>Welcome to Game Of Cards</h3>
+        <button class="btn btn-info" id="new-game">New Game</button>
+        <button class="btn btn-dark" id="stay-game">Stay</button>
+        <button class="btn btn-dark" id="hit-game">Hit!</button>
+        <h3 id="status" class="shake"></h3>
+        <div class="row card-section" id="cardSec">
+            <div class="card col-md-6">
+                <div class="card-header">
+                    Dealer
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item" id="dealerDiv"></li>
+                    <li class="list-group-item"><b>Score:</b> <span id="dealerScore"></span></li>
+                </ul>
+            </div>
+            <div class="card col-md-6">
+                    <div class="card-header">
+                        Player
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item" id="playerDiv"></li>
+                        <li class="list-group-item"><b>Score:</b> <span id="playerScore"></span></li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

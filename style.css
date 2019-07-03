@@ -1,0 +1,23 @@
+
+#stay-game, #hit-game, #cardSec{
+    display: none;
+}
+
+.card-section{
+    width: 50%;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+.shake {
+    -webkit-animation-name: spaceboots;
+    -webkit-animation-duration: 0.8s;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+.shake {
+    -webkit-animation-name: shake;
+    animation-name: shake;
+}
